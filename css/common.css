@@ -1,0 +1,56 @@
+:root {
+    --brand-default: #4D5AE5;
+    --brand-pressed: #404BBF;
+
+    --text-primary: #434455;
+    --text-secondary: #8E8F99;
+    --contrast-high: #2E2F42;
+
+    --surface-primary: #FFFFFF;
+    --surface-default: #F4F4FD;
+    --surface-hero: #2E2F42;
+    --surface-modal: #FCFCFC;
+    --overlay-modal: #2E2F42;
+
+    --accent-subtle: #E7E9FC;
+    --success: #31D0AA;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
+    line-height: 1.5;
+    background-color: var(--surface-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    /*display: block;*/
+    /*max-width: 100%;*/
+    /*height: auto;*/
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--brand-default);
+}
