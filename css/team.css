@@ -8,27 +8,27 @@
     text-align: center;
 }
 
-.team-subtitle {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    text-align: center;
-}
-
-.team-desc {
-    line-height: 1.5;
-    text-align: center;
-    color: var(--text-primary);
-}
-
-.team-img {
-
-}
-
 .team-list {
 
 }
 
 .team-item {
     background-color: var(--surface-primary);
+}
+
+.team-item-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.team-item-desc {
+    line-height: 1.5;
+    text-align: center;
+    color: var(--text-primary);
+}
+
+.team-item-img {
+
 }

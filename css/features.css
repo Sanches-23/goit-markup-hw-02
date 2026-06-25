@@ -6,23 +6,23 @@
 
 }
 
-.features-subtitle {
-    color: var(--contrast-high);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-}
-
-.features-desc {
-    line-height: 1.5;
-    color: var(--text-primary);
-}
-
 .features-list {
 
 }
 
 .features-item {
 
+}
+
+.features-item-subtitle {
+    color: var(--contrast-high);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.features-item-desc {
+    line-height: 1.5;
+    color: var(--text-primary);
 }
 
