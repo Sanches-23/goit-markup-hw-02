@@ -1,0 +1,12 @@
+.footer{
+    background-color: var(--overlay-modal);
+}
+
+.footer-logo {
+    color: var(--surface-default);
+}
+
+.footer-desc {
+    color: var(--surface-default);
+    line-height: 1.5;
+}

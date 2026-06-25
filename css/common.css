@@ -18,9 +18,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
-    line-height: 1.5;
     background-color: var(--surface-primary);
+    color: var(--contrast-high);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -35,22 +34,33 @@ a {
 button {
     border: none;
     cursor: pointer;
+}
 
+ul, ol, li {
+    list-style-type: none;
 }
 
 li {
     list-style: none;
 }
 
+address {
+    font-style: normal;
+}
+
 img {
-    /*display: block;*/
-    /*max-width: 100%;*/
-    /*height: auto;*/
+
 }
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
+    line-height: 1.33333;
     color: var(--brand-default);
+    text-transform: uppercase;
+}
+
+.logo-accent {
+    color: var(--brand-pressed);
 }

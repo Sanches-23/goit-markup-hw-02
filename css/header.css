@@ -1,0 +1,39 @@
+.header {
+
+}
+
+.header-logo {
+    color: var(--contrast-high);
+}
+
+.header-nav {
+
+}
+
+.header-menu {
+
+}
+
+.header-menu-link {
+    color: var(--contrast-high);
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+
+}
+
+.header-address {
+
+}
+
+.header-contacts {
+
+}
+
+.header-contacts-link {
+    color: var(--text-primary);
+    line-height: 1.5;
+}
