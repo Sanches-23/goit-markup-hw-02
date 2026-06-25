@@ -1,5 +1,5 @@
 .team {
-    background-color: var(--surface-default);
+    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -13,7 +13,7 @@
 }
 
 .team-item {
-    background-color: var(--surface-primary);
+    background-color: #FFFFFF;
 }
 
 .team-item-subtitle {
@@ -26,7 +26,7 @@
 .team-item-desc {
     line-height: 1.5;
     text-align: center;
-    color: var(--text-primary);
+    color: #434455;
 }
 
 .team-item-img {

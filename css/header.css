@@ -3,7 +3,7 @@
 }
 
 .header-logo {
-    color: var(--contrast-high);
+
 }
 
 .header-nav {
@@ -15,14 +15,14 @@
 }
 
 .header-menu-link {
-    color: var(--contrast-high);
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
 }
 
-.header-contacts-link:hover,
-.header-contacts-link:focus {
-
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: #404bbf ;
 }
 
 .header-address {
@@ -34,6 +34,11 @@
 }
 
 .header-contacts-link {
-    color: var(--text-primary);
+    color: #434455;
     line-height: 1.5;
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+    color: #404bbf ;
 }

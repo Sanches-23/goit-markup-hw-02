@@ -1,21 +1,21 @@
 .hero {
-    background-color: var(--surface-hero);
+    background-color: #2E2F42;
 }
 
 .hero-title {
     font-size: 56px;
     line-height: 1.07143;
     text-align: center;
-    color: var(--surface-primary);
+    color: #FFFFFF;
 }
 
 .hero-btn {
-    background-color: var(--brand-default);
-    color: var(--surface-primary);
+    background-color: #4D5AE5;
+    color: #FFFFFF;
     font-weight: 500;
     line-height: 1.5;
 }
 
 .hero-btn:hover, .hero-btn:focus {
-    background-color: var(--brand-pressed);
+    background-color: #404BBF;
 }

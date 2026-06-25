@@ -1,12 +1,12 @@
 .footer{
-    background-color: var(--overlay-modal);
+    background-color: #2E2F42;
 }
 
 .footer-logo {
-    color: var(--surface-default);
+    color: #F4F4FD;
 }
 
 .footer-desc {
-    color: var(--surface-default);
+    color: #F4F4FD;
     line-height: 1.5;
 }

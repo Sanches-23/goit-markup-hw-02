@@ -1,25 +1,8 @@
-:root {
-    --brand-default: #4D5AE5;
-    --brand-pressed: #404BBF;
-
-    --text-primary: #434455;
-    --text-secondary: #8E8F99;
-    --contrast-high: #2E2F42;
-
-    --surface-primary: #FFFFFF;
-    --surface-default: #F4F4FD;
-    --surface-hero: #2E2F42;
-    --surface-modal: #FCFCFC;
-    --overlay-modal: #2E2F42;
-
-    --accent-subtle: #E7E9FC;
-    --success: #31D0AA;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: var(--surface-primary);
-    color: var(--contrast-high);
+    background-color: #FFFFFF;
+    color: #2E2F42;
+    letter-spacing: 0.02em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,6 +17,7 @@ a {
 button {
     border: none;
     cursor: pointer;
+    letter-spacing: 0.04em;
 }
 
 ul, ol, li {
@@ -57,10 +41,10 @@ img {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.33333;
-    color: var(--brand-default);
     text-transform: uppercase;
+    letter-spacing: 0.03em;
 }
 
 .logo-accent {
-    color: var(--brand-pressed);
+    color: #4D5AE5;
 }
